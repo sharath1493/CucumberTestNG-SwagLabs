@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="55964" started-at="2021-12-17T20:47:15 IST" finished-at="2021-12-17T20:48:11 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="55964" started-at="2021-12-17T20:47:15 IST" finished-at="2021-12-17T20:48:11 IST">
+      <class name="StepDefinitions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="setUpClass" is-config="true" duration-ms="1645" started-at="2021-12-17T20:47:15 IST" finished-at="2021-12-17T20:47:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="432" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the CartButton is displayed on Inventory Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="8" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Page Header title is displayed on Inventory Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="5" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Default Products Order on Inventory Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="8" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Products Order Sorted By Name Z to A on Inventory Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="3" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Products Order Sorted By Name A to Z on Inventory Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="3" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Products Order Sorted By Price Low to High on Inventory Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="5" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Products Order Sorted By Price High to Low on Inventory Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="8" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Products and associated Prices displayed are correct"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inventory Page UI Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="28376" started-at="2021-12-17T20:47:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality with Standard user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Login Feature with all users login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="5383" started-at="2021-12-17T20:47:46 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality with locked_out_user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Login Feature with all users login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at StepDefinitions.LoginPageStepDefinitions.user_should_be_directed_to_product_catalog_page(LoginPageStepDefinitions.java:66)
+at ✽.user should be directed to product catalog page(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/login.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="5456" started-at="2021-12-17T20:47:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:47:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality with problem_user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Login Feature with all users login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="runScenario" duration-ms="10583" started-at="2021-12-17T20:47:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-17T20:48:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality with performance_glitch_user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Login Feature with all users login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:StepDefinitions.TestRunner@4b553d26]" name="tearDownClass" is-config="true" duration-ms="4001" started-at="2021-12-17T20:48:07 IST" finished-at="2021-12-17T20:48:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- StepDefinitions.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+pages\InventoryPage.class
+utils\ExcelReader.class
+utils\ConfigReader.class
+pages\BaseActions.class
+utils\FrameworkConstants.class
+factory\DriverFactory.class
+pages\LoginPageSwagLabs.class
