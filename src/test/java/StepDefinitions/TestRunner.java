@@ -5,7 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;  
 
 @CucumberOptions(
-		features={"src/test/resources/Features/login.feature"},
+		features={"src/test/resources/Features/inventory.feature"},
 
 		monochrome = true,
 		plugin = {"pretty", 

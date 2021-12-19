@@ -1,0 +1,1662 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 19, 2021 03:27:56 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@ProductsOrderSortByZtoA</a><a class="dropdown-item" href="#">@ProductsOrderSortByPriceHightoLow</a><a class="dropdown-item" href="#">@InventoryHeaderTitleDisplayed</a><a class="dropdown-item" href="#">@InventoryTest7</a><a class="dropdown-item" href="#">@DefaultProductsOrder</a><a class="dropdown-item" href="#">@InventoryTest2</a><a class="dropdown-item" href="#">@InventoryTest1</a><a class="dropdown-item" href="#">@InventoryTest3</a><a class="dropdown-item" href="#">@ProductsOrderSortByPriceLowtoHigh</a><a class="dropdown-item" href="#">@InventoryTest5</a><a class="dropdown-item" href="#">@InventoryTest4</a><a class="dropdown-item" href="#">@InventoryTest8</a><a class="dropdown-item" href="#">@InventoryTest6</a><a class="dropdown-item" href="#">@CartButtonDisplayed</a><a class="dropdown-item" href="#">@ProductPriceDescriptionAddtoCartButtonCheck</a><a class="dropdown-item" href="#">@Inventory</a><a class="dropdown-item" href="#">@ProductsOrderSortByNameAtoZ</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="@Inventory"
+          device="">
+          <div class="test-detail">
+            <p class="name">Inventory Page UI Functionality</p>
+            <p class="text-sm">
+              <span>15:27:57 PM</span> / <span>31:13:849</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Inventory Page UI Functionality</h5>
+<span class='badge badge-success'>12.19.2021 15:27:57</span>
+<span class='badge badge-danger'>12.19.2021 15:29:11</span>
+<span class='badge badge-default'>31:13:849</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@Inventory</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify the CartButton is displayed on Inventory Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.verify_cart_button_is_dispalyed_on_inventory_page()">
+                <span>Then Verify Cart button is dispalyed on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Verify the Page Header title is displayed on Inventory Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.verify_page_header_title_displayed_as(java.lang.String)">
+                <span>Then Verify Page Header title displayed as "PRODUCTS"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log fail-bg mr-2">Fail</span>Verify the Default Products Order on Inventory Page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)">
+                <span>Then Verify the default order of the product catalog is "Name (A to Z)"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is "Name (A to Z)"(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:20)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)">
+                <span>And Verify the default product order as below</span>
+      <div><table class='markup-table table '><tr><td>Sauce Labs Backpack</td></tr><tr><td>Sauce Labs Bike Light</td></tr><tr><td>Sauce Labs Bolt T-Shirt</td></tr><tr><td>Sauce Labs Fleece Jacket</td></tr><tr><td>Sauce Labs Onesie</td></tr><tr><td>Test.allTheThings() T-Shirt (Red)</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)">
+                <span>And No. of products displayed on inventory page is 6</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" >
+                <span>StepDefinitions.Hook.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="28"><span class="badge log fail-bg mr-2">Fail</span>Verify the Products Order Sorted By Name Z to A on Inventory Page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)">
+                <span>And Verify the default order of the product catalog is "Name (A to Z)"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is "Name (A to Z)"(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:33)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)">
+                <span>When User changes the order of product catalog to "Name (Z to A)"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)">
+                <span>Then Verify the default product order as below</span>
+      <div><table class='markup-table table '><tr><td>Test.allTheThings() T-Shirt (Red)</td></tr><tr><td>Sauce Labs Onesie</td></tr><tr><td>Sauce Labs Fleece Jacket</td></tr><tr><td>Sauce Labs Bolt T-Shirt</td></tr><tr><td>Sauce Labs Bike Light</td></tr><tr><td>Sauce Labs Backpack</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)">
+                <span>And No. of products displayed on inventory page is 6</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" >
+                <span>StepDefinitions.Hook.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>Verify the Products Order Sorted By Name A to Z on Inventory Page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)">
+                <span>And Verify the default order of the product catalog is "Name (A to Z)"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is "Name (A to Z)"(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:47)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)">
+                <span>And User changes the order of product catalog to "Name (Z to A)"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)">
+                <span>Then User changes the order of product catalog to "Name (A to Z)"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)">
+                <span>And Verify the default product order as below</span>
+      <div><table class='markup-table table '><tr><td>Sauce Labs Backpack</td></tr><tr><td>Sauce Labs Bike Light</td></tr><tr><td>Sauce Labs Bolt T-Shirt</td></tr><tr><td>Sauce Labs Fleece Jacket</td></tr><tr><td>Sauce Labs Onesie</td></tr><tr><td>Test.allTheThings() T-Shirt (Red)</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)">
+                <span>And No. of products displayed on inventory page is 6</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" >
+                <span>StepDefinitions.Hook.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="51"><span class="badge log fail-bg mr-2">Fail</span>Verify the Products Order Sorted By Price Low to High on Inventory Page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)">
+                <span>And Verify the default order of the product catalog is "Name (A to Z)"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is "Name (A to Z)"(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:62)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)">
+                <span>Then User changes the order of product catalog to "Price (low to high)"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)">
+                <span>And Verify the default product order as below</span>
+      <div><table class='markup-table table '><tr><td>Sauce Labs Onesie</td></tr><tr><td>Sauce Labs Bike Light</td></tr><tr><td>Sauce Labs Bolt T-Shirt</td></tr><tr><td>Test.allTheThings() T-Shirt (Red)</td></tr><tr><td>Sauce Labs Backpack</td></tr><tr><td>Sauce Labs Fleece Jacket</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)">
+                <span>And No. of products displayed on inventory page is 6</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" >
+                <span>StepDefinitions.Hook.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="62"><span class="badge log fail-bg mr-2">Fail</span>Verify the Products Order Sorted By Price High to Low on Inventory Page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)">
+                <span>And Verify the default order of the product catalog is "Name (A to Z)"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is "Name (A to Z)"(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:76)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)">
+                <span>Then User changes the order of product catalog to "Price (high to low)"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)">
+                <span>And Verify the default product order as below</span>
+      <div><table class='markup-table table '><tr><td>Sauce Labs Fleece Jacket</td></tr><tr><td>Sauce Labs Backpack</td></tr><tr><td>Sauce Labs Bolt T-Shirt</td></tr><tr><td>Test.allTheThings() T-Shirt (Red)</td></tr><tr><td>Sauce Labs Bike Light</td></tr><tr><td>Sauce Labs Onesie</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)">
+                <span>And No. of products displayed on inventory page is 6</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" >
+                <span>StepDefinitions.Hook.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="73"><span class="badge log fail-bg mr-2">Fail</span>Verify the Products and associated Prices displayed are correct</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()">
+                <span>Given Standard User logged into SwagLabs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()">
+                <span>Given User is on Inventory Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)">
+                <span>And Verify the default order of the product catalog is "Name (A to Z)"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is "Name (A to Z)"(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:90)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.verify_the_productname_description_price_as_below(io.cucumber.datatable.DataTable)">
+                <span>Then Verify the ProductName, Descritption, Price as below</span>
+      <div><table class='markup-table table '><tr><td>ProductName</td><td>Descritption</td><td>Price</td></tr><tr><td>Sauce Labs Backpack</td><td>carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.</td><td>$29.99</td></tr><tr><td>Sauce Labs Bike Light</td><td>A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.</td><td>$9.99</td></tr><tr><td>Sauce Labs Bolt T-Shirt</td><td>Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.</td><td>$15.99</td></tr><tr><td>Sauce Labs Fleece Jacket</td><td>It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.</td><td>$49.99</td></tr><tr><td>Sauce Labs Onesie</td><td>Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.</td><td>$7.99</td></tr><tr><td>Test.allTheThings() T-Shirt (Red)</td><td>This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.</td><td>$15.99</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.InventoryPageStepDefs.no_of_add_to_cart_buttons_displayed_are(java.lang.Integer)">
+                <span>And No. of Add to Cart buttons displayed are 6</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" >
+                <span>StepDefinitions.Hook.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>Then Verify the default order of the product catalog is "Name (A to Z)"</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Default Products Order on Inventory Page.Then Verify the default order of the product catalog is "Name (A to Z)"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>And Verify the default order of the product catalog is "Name (A to Z)"</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name Z to A on Inventory Page.And Verify the default order of the product catalog is "Name (A to Z)"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>And Verify the default order of the product catalog is "Name (A to Z)"</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name A to Z on Inventory Page.And Verify the default order of the product catalog is "Name (A to Z)"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='56'>And Verify the default order of the product catalog is "Name (A to Z)"</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price Low to High on Inventory Page.And Verify the default order of the product catalog is "Name (A to Z)"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:29:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='67'>And Verify the default order of the product catalog is "Name (A to Z)"</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price High to Low on Inventory Page.And Verify the default order of the product catalog is "Name (A to Z)"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:29:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='78'>And Verify the default order of the product catalog is "Name (A to Z)"</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products and associated Prices displayed are correct.And Verify the default order of the product catalog is "Name (A to Z)"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">17</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ProductsOrderSortByZtoA</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ProductsOrderSortByZtoA</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Verify the Products Order Sorted By Name Z to A on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name Z to A on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ProductsOrderSortByPriceHightoLow</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ProductsOrderSortByPriceHightoLow</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='62'>Verify the Products Order Sorted By Price High to Low on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price High to Low on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@InventoryHeaderTitleDisplayed</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryHeaderTitleDisplayed</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:28:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Verify the Page Header title is displayed on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Page Header title is displayed on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@InventoryTest7</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest7</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='62'>Verify the Products Order Sorted By Price High to Low on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price High to Low on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@DefaultProductsOrder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DefaultProductsOrder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>Verify the Default Products Order on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Default Products Order on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@InventoryTest2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:28:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Verify the Page Header title is displayed on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Page Header title is displayed on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@InventoryTest1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify the CartButton is displayed on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the CartButton is displayed on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@InventoryTest3</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest3</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>Verify the Default Products Order on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Default Products Order on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ProductsOrderSortByPriceLowtoHigh</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ProductsOrderSortByPriceLowtoHigh</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>Verify the Products Order Sorted By Price Low to High on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price Low to High on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@InventoryTest5</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest5</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>Verify the Products Order Sorted By Name A to Z on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name A to Z on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@InventoryTest4</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest4</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Verify the Products Order Sorted By Name Z to A on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name Z to A on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@InventoryTest8</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest8</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:29:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>Verify the Products and associated Prices displayed are correct</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products and associated Prices displayed are correct</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@InventoryTest6</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InventoryTest6</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>Verify the Products Order Sorted By Price Low to High on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price Low to High on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@CartButtonDisplayed</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@CartButtonDisplayed</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify the CartButton is displayed on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the CartButton is displayed on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ProductPriceDescriptionAddtoCartButtonCheck</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ProductPriceDescriptionAddtoCartButtonCheck</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:29:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>Verify the Products and associated Prices displayed are correct</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products and associated Prices displayed are correct</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">@Inventory</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Inventory</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Inventory Page UI Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify the CartButton is displayed on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the CartButton is displayed on Inventory Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:28:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Verify the Page Header title is displayed on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Page Header title is displayed on Inventory Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>Verify the Default Products Order on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Default Products Order on Inventory Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Verify the Products Order Sorted By Name Z to A on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name Z to A on Inventory Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>Verify the Products Order Sorted By Name A to Z on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name A to Z on Inventory Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>Verify the Products Order Sorted By Price Low to High on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price Low to High on Inventory Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='62'>Verify the Products Order Sorted By Price High to Low on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Price High to Low on Inventory Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:29:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>Verify the Products and associated Prices displayed are correct</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products and associated Prices displayed are correct</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ProductsOrderSortByNameAtoZ</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ProductsOrderSortByNameAtoZ</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:28:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>Verify the Products Order Sorted By Name A to Z on Inventory Page</a>
+<div class="">
+<span class="badge badge-default">Inventory Page UI Functionality.Verify the Products Order Sorted By Name A to Z on Inventory Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 19, 2021 03:27:56 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 19, 2021 03:29:11 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'><b>2</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='75%'><b>6</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='51%'><b>24</b> steps passed</small></div>
+<div>
+<small data-tooltip='12%'><b>6</b> steps failed,
+<b>17</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Inventory Page UI Functionality":73.849
+};
+</script>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@ProductsOrderSortByZtoA</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@ProductsOrderSortByPriceHightoLow</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@InventoryHeaderTitleDisplayed</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@InventoryTest7</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@DefaultProductsOrder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@InventoryTest2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@InventoryTest1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@InventoryTest3</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@ProductsOrderSortByPriceLowtoHigh</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@InventoryTest5</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@InventoryTest4</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@InventoryTest8</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@InventoryTest6</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@CartButtonDisplayed</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@ProductPriceDescriptionAddtoCartButtonCheck</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Inventory</td>
+<td>2</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>22.222%</td>
+</tr>
+<tr>
+<td>@ProductsOrderSortByNameAtoZ</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 2,
+failChild: 6,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 24,
+failGrandChild: 6,
+warningGrandChild: 0,
+skipGrandChild: 17,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

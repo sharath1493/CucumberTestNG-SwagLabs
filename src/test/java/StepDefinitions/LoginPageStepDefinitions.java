@@ -23,7 +23,7 @@ public class LoginPageStepDefinitions {
 		//DriverFactory.getDriver().get(FrameworkConstants.URL);
 
 		login = new LoginPageSwagLabs(DriverFactory.getDriver());
-		login.lauchApplication(FrameworkConstants.URL);;
+		login.lauchApplication(FrameworkConstants.URL);
 
 	}
 

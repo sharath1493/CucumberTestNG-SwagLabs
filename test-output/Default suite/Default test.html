@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 18 11:19:52 IST 2021</td>
+<td>Started on:</td><td>Sun Dec 19 15:22:38 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>54 seconds (54905 ms)</td>
+<tr><td>Total time:</td><td>54 seconds (54653 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,28 +75,148 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Functionality with locked_out_user", "Optional[Verify the Login Feature with all users login]"</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Default Products Order on Inventory Page", "Optional[Inventory Page UI Functionality]"</td>
+<td><div><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at StepDefinitions.LoginPageStepDefinitions.user_should_be_directed_to_product_catalog_page(LoginPageStepDefinitions.java:66)
-	at ?.user should be directed to product catalog page(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/login.feature:21)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1715802200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1715802200'><pre>java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace373197129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace373197129'><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at StepDefinitions.LoginPageStepDefinitions.user_should_be_directed_to_product_catalog_page(LoginPageStepDefinitions.java:66)
-	at ?.user should be directed to product catalog page(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/login.feature:21)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:20)
+</pre></div></td>
+<td>6</td>
+<td>StepDefinitions.TestRunner@53aac487</td></tr>
+<tr>
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Products Order Sorted By Name Z to A on Inventory Page", "Optional[Inventory Page UI Functionality]"</td>
+<td><div><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace890491412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace890491412'><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:33)
 </pre></div></td>
 <td>7</td>
+<td>StepDefinitions.TestRunner@53aac487</td></tr>
+<tr>
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Products Order Sorted By Name A to Z on Inventory Page", "Optional[Inventory Page UI Functionality]"</td>
+<td><div><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:47)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1376425471", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1376425471'><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:47)
+</pre></div></td>
+<td>7</td>
+<td>StepDefinitions.TestRunner@53aac487</td></tr>
+<tr>
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Products Order Sorted By Price Low to High on Inventory Page", "Optional[Inventory Page UI Functionality]"</td>
+<td><div><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:62)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2068545945", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2068545945'><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:62)
+</pre></div></td>
+<td>6</td>
+<td>StepDefinitions.TestRunner@53aac487</td></tr>
+<tr>
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Products Order Sorted By Price High to Low on Inventory Page", "Optional[Inventory Page UI Functionality]"</td>
+<td><div><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1742498632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1742498632'><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:76)
+</pre></div></td>
+<td>5</td>
+<td>StepDefinitions.TestRunner@53aac487</td></tr>
+<tr>
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Products and associated Prices displayed are correct", "Optional[Inventory Page UI Functionality]"</td>
+<td><div><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:90)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1746150957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1746150957'><pre>java.lang.AssertionError: expected [Name (A to Z)] but found [NAME (A TO Z)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(InventoryPageStepDefs.java:49)
+	at ?.Verify the default order of the product catalog is &quot;Name (A to Z)&quot;(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:90)
+</pre></div></td>
+<td>5</td>
 <td>StepDefinitions.TestRunner@53aac487</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -107,19 +227,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Functionality with Standard user", "Optional[Verify the Login Feature with all users login]"</td>
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the CartButton is displayed on Inventory Page", "Optional[Inventory Page UI Functionality]"</td>
 <td></td>
-<td>22</td>
+<td>4</td>
 <td>StepDefinitions.TestRunner@53aac487</td></tr>
 <tr>
-<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Functionality with problem_user", "Optional[Verify the Login Feature with all users login]"</td>
+<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Page Header title is displayed on Inventory Page", "Optional[Inventory Page UI Functionality]"</td>
 <td></td>
-<td>5</td>
-<td>StepDefinitions.TestRunner@53aac487</td></tr>
-<tr>
-<td title='StepDefinitions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: StepDefinitions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Functionality with performance_glitch_user", "Optional[Verify the Login Feature with all users login]"</td>
-<td></td>
-<td>9</td>
+<td>4</td>
 <td>StepDefinitions.TestRunner@53aac487</td></tr>
 </table><p>
 </body>

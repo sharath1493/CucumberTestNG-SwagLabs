@@ -2,7 +2,7 @@
 Feature: Verify the Login Feature with all users login
   I want to use this template for my feature file
 
-  Background:
+  Background: 
     Given User launches the SwagLabs
     Then URL of the page should be "https://www.saucedemo.com/"
 

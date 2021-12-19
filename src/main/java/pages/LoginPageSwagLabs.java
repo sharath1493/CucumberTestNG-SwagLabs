@@ -19,13 +19,14 @@ public class LoginPageSwagLabs extends BaseActions {
 	private By button_signin = By.id("login-button");
 
 	//3. Behaviors
-	public void doLogin(String uname, String pwd)
+	public InventoryPage doLogin(String uname, String pwd)
 	{
 		doSendKeys(textbox_username, uname);
 		doSendKeys(textbox_password, pwd);
 		doClick(button_signin);
+		return new InventoryPage(this.driver);
 	}
-	
+
 
 
 }
