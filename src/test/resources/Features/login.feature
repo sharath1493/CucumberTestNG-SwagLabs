@@ -26,6 +26,7 @@ Feature: Verify the Login Feature with all users login
     When User attempts to login with below credentials
       | problem_user | secret_sauce |
     Then user should be directed to product catalog page
+    
 
   @performance_glitch_user_login
   Scenario: Login Functionality with performance_glitch_user
