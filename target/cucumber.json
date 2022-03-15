@@ -1,0 +1,1079 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 81782300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.382Z",
+        "line": 8,
+        "name": "Verify the CartButton is displayed on Inventory Page",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-cartbutton-is-displayed-on-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verify Cart button is dispalyed on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_cart_button_is_dispalyed_on_inventory_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@CartButtonDisplayed"
+          },
+          {
+            "name": "@InventoryTest1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 1997600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.608Z",
+        "line": 13,
+        "name": "Verify the Page Header title is displayed on Inventory Page",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-page-header-title-is-displayed-on-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Verify Page Header title displayed as \"PRODUCTS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PRODUCTS\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_page_header_title_displayed_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@InventoryHeaderTitleDisplayed"
+          },
+          {
+            "name": "@InventoryTest2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 998600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.645Z",
+        "line": 18,
+        "name": "Verify the Default Products Order on Inventory Page",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-default-products-order-on-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306500,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Verify the default order of the product catalog is \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4989300,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Verify the default product order as below",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461800,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "No. of products displayed on inventory page is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@DefaultProductsOrder"
+          },
+          {
+            "name": "@InventoryTest3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 1490900,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.684Z",
+        "line": 31,
+        "name": "Verify the Products Order Sorted By Name Z to A on Inventory Page",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-products-order-sorted-by-name-z-to-a-on-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 302600,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Verify the default order of the product catalog is \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1282200,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User changes the order of product catalog to \"Name (Z to A)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (Z to A)\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Verify the default product order as below",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "No. of products displayed on inventory page is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@ProductsOrderSortByZtoA"
+          },
+          {
+            "name": "@InventoryTest4"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 997400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.712Z",
+        "line": 45,
+        "name": "Verify the Products Order Sorted By Name A to Z on Inventory Page",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-products-order-sorted-by-name-a-to-z-on-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 612400,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Verify the default order of the product catalog is \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481100,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User changes the order of product catalog to \"Name (Z to A)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (Z to A)\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684700,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "User changes the order of product catalog to \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "Verify the default product order as below",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087600,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "No. of products displayed on inventory page is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@ProductsOrderSortByNameAtoZ"
+          },
+          {
+            "name": "@InventoryTest5"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 660600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.751Z",
+        "line": 60,
+        "name": "Verify the Products Order Sorted By Price Low to High on Inventory Page",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-products-order-sorted-by-price-low-to-high-on-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996000,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "Verify the default order of the product catalog is \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "User changes the order of product catalog to \"Price (low to high)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price (low to high)\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 640800,
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "Verify the default product order as below",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "No. of products displayed on inventory page is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@ProductsOrderSortByPriceLowtoHigh"
+          },
+          {
+            "name": "@InventoryTest6"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 2037800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.784Z",
+        "line": 74,
+        "name": "Verify the Products Order Sorted By Price High to Low on Inventory Page",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-products-order-sorted-by-price-high-to-low-on-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "Verify the default order of the product catalog is \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "User changes the order of product catalog to \"Price (high to low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price (high to low)\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.user_changes_the_order_of_product_catalog_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "Verify the default product order as below",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_product_order_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "No. of products displayed on inventory page is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.no_of_products_displayed_on_inventory_page_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@ProductsOrderSortByPriceHightoLow"
+          },
+          {
+            "name": "@InventoryTest7"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Member Logged in as Stangadard User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Input must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:56)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:97)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:128)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:61)\r\n\tat pages.BaseActions.\u003cinit\u003e(BaseActions.java:22)\r\n\tat pages.LoginPageSwagLabs.\u003cinit\u003e(LoginPageSwagLabs.java:12)\r\n\tat StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs(InventoryPageStepDefs.java:24)\r\n\tat ✽.Standard User logged into SwagLabs(file:///C:/Users/shara/eclipse-workspace/CucumberTestNG-SwagLabs/src/test/resources/Features/inventory.feature:5)\r\n",
+              "duration": 2606900,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Standard User logged into SwagLabs",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.standard_user_logged_into_swag_labs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T14:53:18.831Z",
+        "line": 88,
+        "name": "Verify the Products and associated Prices displayed are correct",
+        "description": "",
+        "id": "inventory-page-ui-functionality;verify-the-products-and-associated-prices-displayed-are-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1020300,
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "User is on Inventory Page",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "Verify the default order of the product catalog is \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_default_order_of_the_product_catalog_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290200,
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "Verify the ProductName, Descritption, Price as below",
+            "match": {
+              "location": "StepDefinitions.InventoryPageStepDefs.verify_the_productname_description_price_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ProductName",
+                  "Descritption",
+                  "Price"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.",
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light",
+                  "A red light isn\u0027t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.",
+                  "$9.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt",
+                  "Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.",
+                  "$15.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket",
+                  "It\u0027s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.",
+                  "$49.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie",
+                  "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won\u0027t unravel.",
+                  "$7.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)",
+                  "This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.",
+                  "$15.99"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "No. of Add to Cart buttons displayed are 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.InventoryPageStepDefs.no_of_add_to_cart_buttons_displayed_are(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Inventory"
+          },
+          {
+            "name": "@ProductPriceDescriptionAddtoCartButtonCheck"
+          },
+          {
+            "name": "@InventoryTest8"
+          }
+        ]
+      }
+    ],
+    "name": "Inventory Page UI Functionality",
+    "description": "",
+    "id": "inventory-page-ui-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/inventory.feature",
+    "tags": [
+      {
+        "name": "@Inventory",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
